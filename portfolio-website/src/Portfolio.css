@@ -1,0 +1,28 @@
+.portfolioPage {
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 1000px;
+}
+
+@media only screen and (max-width: 600px){
+	.card {
+		flex-direction: column;
+	}
+}
+
+.cardImg {
+	width: 30%;
+	height: 100%;
+}
+
+.card {
+	z-index: 2;
+	background-color: white;
+	padding: 35px;
+	width: 80%;
+	display: flex;
+	margin: 20px;
+	height: 30vh;
+}

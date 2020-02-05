@@ -1,0 +1,30 @@
+
+.about-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.mainframe {
+	width: 65%;
+}
+
+.white {
+	background-color: white;
+	color: black;
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
+.black {
+	background-color: black;
+	color: white;
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+
