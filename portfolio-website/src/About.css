@@ -4,6 +4,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	background-color: grey;
 }
 
 .mainframe {
@@ -11,8 +12,8 @@
 }
 
 .white {
-	background-color: white;
-	color: black;
+	background-color: grey;
+	color: whitesmoke;
 	display: flex;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -26,5 +27,30 @@
 	margin-top: 50px;
 	margin-bottom: 50px;
 
+}
+
+@media only screen and (max-width: 600px){
+	.white {
+		flex-direction: column;
+	}
+
+	.first {
+		order: 1;
+	}	
+
+	.second {
+		order: 2;
+	}
+
+	.black {
+		flex-direction: column;
+	}
+}
+
+
+.description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 

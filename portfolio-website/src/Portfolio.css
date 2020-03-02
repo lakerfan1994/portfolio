@@ -1,28 +1,87 @@
 .portfolioPage {
-	background-color: whitesmoke;
+	background-color: grey;
 	display: flex;
-	justify-content: center;
+	
 	flex-direction: column;
-	height: 1000px;
+	align-items: center;
+	height: 160vh;
 }
 
 @media only screen and (max-width: 600px){
 	.card {
 		flex-direction: column;
+		align-items: stretch;
+		height: 100%;
+	}
+	.cardImg {
+		width: 100%;
+		height: 200px;
+	}
+	.portfolioPage {
+		height: 240vh;
 	}
 }
 
-.cardImg {
+@media only screen and (max-width: 1300px){
+	.cardText{
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 1100px){
+	.cardText{
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 920px){
+	.cardText{
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.cardText{
+		font-size: 14px;
+	}
+}
+
+
+
+@media only screen and (min-width: 600px){
+	.card {
+		height: 40vh; 	
+	}
+	.cardImg {
 	width: 30%;
 	height: 100%;
+	}
+}
+.portfolioPage > a:hover{
+	color: green;
 }
 
 .card {
 	z-index: 2;
-	background-color: white;
+	background-color: whitesmoke;
 	padding: 35px;
 	width: 80%;
 	display: flex;
-	margin: 20px;
-	height: 30vh;
+	margin: 15px;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.button-container  {
+	display: flex;
+	justify-content: space-around;
+
 }
