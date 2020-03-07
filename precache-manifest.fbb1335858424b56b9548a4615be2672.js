@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b1efee532a0fda69107963c49015d9f",
+    "revision": "3d307e00ea8ee6f34a9a9eeaed326029",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "919a3ac559ead45fce2b",
-    "url": "/portfolio/static/css/main.0bd52283.chunk.css"
+    "revision": "9cd43d2d239c406b2a8a",
+    "url": "/portfolio/static/css/main.a1dc0663.chunk.css"
   },
   {
-    "revision": "d09d37a9843a83dc241a",
-    "url": "/portfolio/static/js/2.28499a05.chunk.js"
+    "revision": "bdf8b417d74f3be15a03",
+    "url": "/portfolio/static/js/2.afe1dc21.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/portfolio/static/js/2.28499a05.chunk.js.LICENSE"
+    "url": "/portfolio/static/js/2.afe1dc21.chunk.js.LICENSE"
   },
   {
-    "revision": "919a3ac559ead45fce2b",
-    "url": "/portfolio/static/js/main.990f7188.chunk.js"
+    "revision": "9cd43d2d239c406b2a8a",
+    "url": "/portfolio/static/js/main.e702bad5.chunk.js"
   },
   {
     "revision": "bbff5ecae590bc365cda",
     "url": "/portfolio/static/js/runtime-main.e77b87bb.js"
+  },
+  {
+    "revision": "5a992136502684e5cae5499488e0f8ca",
+    "url": "/portfolio/static/media/FashionFootprint.5a992136.png"
   },
   {
     "revision": "064ace4777ac86d7627f455f36975452",
